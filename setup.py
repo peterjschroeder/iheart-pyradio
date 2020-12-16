@@ -9,7 +9,7 @@ setup(
         author='Peter J. Schroeder', 
         author_email='peterjschroeder@gmail.com', 
         url='https://github.com/peterjschroeder/iheart-pyradio',
-        scripts=['googlit'],
+        scripts=['iheart-pyradio'],
         install_requires=['iheart-mplayer @ https://github.com/oldlaptop/iheart-mplayer']
 )
 
