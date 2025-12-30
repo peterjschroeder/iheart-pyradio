@@ -8,6 +8,7 @@ def main():
     if len(sys.argv) == 1:
         print('iheart-pyradio.py <space seperated list of station ids>')
     else:
+        os.makedirs(os.path.expanduser('~/.config/pyradio'), exist_ok=True)
         f = open(os.path.expanduser('~/.config/pyradio/stations.csv'), 'w')
 
         for i in sys.argv:
